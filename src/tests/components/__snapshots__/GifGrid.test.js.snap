@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente <GifGrid /> Haciendo snapshot sobre el componente <GifGrid /> 1`] = `
+<Fragment>
+  <h3>
+    Saitma
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__delay-2"
+  >
+    Loading...
+  </p>
+  <ol
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Probando el componente <GifGrid /> debe mostrar items cuando carga las imagenes 1`] = `
+<Fragment>
+  <h3>
+    Saitma
+  </h3>
+  <ol
+    className="card-grid"
+  >
+    <GifGridItem
+      id={1}
+      key="1"
+      title="gif test"
+      url="https://loqueseam"
+    />
+  </ol>
+</Fragment>
+`;

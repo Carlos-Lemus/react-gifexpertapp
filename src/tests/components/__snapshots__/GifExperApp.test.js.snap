@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente GifExpertApp Debe de mostrar el componente de GifExpertApp 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="One Punch Man"
+      key="One Punch Man"
+    />
+  </ol>
+</Fragment>
+`;
